@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35327.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "tamagochi-src", "tamagochi-src.csproj", "{205C97DE-B2AA-4094-8571-89785E6A78F3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "test-tamagochi", "..\test-tamagochi\test-tamagochi.csproj", "{B9554269-276E-436D-9251-CDFC57D56F4D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{205C97DE-B2AA-4094-8571-89785E6A78F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{205C97DE-B2AA-4094-8571-89785E6A78F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{205C97DE-B2AA-4094-8571-89785E6A78F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{205C97DE-B2AA-4094-8571-89785E6A78F3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B9554269-276E-436D-9251-CDFC57D56F4D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B9554269-276E-436D-9251-CDFC57D56F4D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B9554269-276E-436D-9251-CDFC57D56F4D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B9554269-276E-436D-9251-CDFC57D56F4D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {41E1704F-23A9-4EEF-8928-622E31409439}
+	EndGlobalSection
+EndGlobal
