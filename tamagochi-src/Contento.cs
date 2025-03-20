@@ -15,7 +15,7 @@ namespace tamagochi_src
 
         public void Jugar(Mascota mascota)
         {
-            if (Juegos > 5)
+            if (Juegos < 5)
                 mascota.CambiarEstado(new Hambriento());
 
             else
@@ -23,7 +23,6 @@ namespace tamagochi_src
                 mascota.Humor += 2;
                 Juegos++;
             }
-
         }
 
         public bool PuedeJugar(Mascota mascota)
