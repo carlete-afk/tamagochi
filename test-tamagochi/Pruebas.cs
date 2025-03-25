@@ -11,7 +11,7 @@ namespace test_tamagochi
         [Fact]
         public void CrearMascotaOK()
         {
-            Assert.IsType<Aburrido>(mascota.Estado);
+            Assert.Equal("Victor", mascota.nombre);
         }
 
         [Fact]
